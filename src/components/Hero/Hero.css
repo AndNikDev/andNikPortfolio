@@ -1,10 +1,44 @@
 .hero-section {
-  background: linear-gradient(
-    to bottom,
-    rgb(0, 0, 0),
-    rgb(93, 93, 93)
-  );
   color: white;
-  position: absolute;
-  top: 0;
+  position: relative;
+  overflow: hidden;
 }
+
+.hero-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  top: -85px;
+}
+
+.hero-title {
+  text-align: left;
+}
+
+.text-title {
+  font-size: 30px;
+}
+
+.animation-title::after {
+  content: "|";
+  text-indent: -0.2em;
+  display: inline-block;
+  animation: blink 0.3s infinite alternate;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.hero-buttons {
+  display: flex;
+}
+
+

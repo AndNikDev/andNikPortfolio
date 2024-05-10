@@ -130,5 +130,9 @@ table {
 
 html, body {
   font-family: "Fira Code", monospace;
-  background-color: rgb(136, 136, 136);
+  background-color: black
+}
+
+.container{
+  
 }
