@@ -1,5 +1,7 @@
+/* eslint-disable react/prop-types */
+/* eslint-disable no-unused-vars */
 import React, { useEffect, useState } from "react";
-import useInterval from "../../context/useInterval";
+import useInterval from "../context/useInterval";
 
 const TypingAnimation = ({ areas, loop = false, speed = 100 }) => {
   const [currentAreaIndex, setCurrentAreaIndex] = useState(0);

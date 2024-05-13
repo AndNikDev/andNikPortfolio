@@ -1,5 +1,5 @@
 import SwitchTheme from "./SwitchTheme";
-import "./Header.css";
+import "../assets/css/Header.css";
 
 const Header = () => {
   return (
@@ -16,7 +16,7 @@ const Header = () => {
         <div className="header-nav-links">
           <ul className="header-nav-list">
             <li className="nav-list-item">
-              <a href="#about">About </a>
+              <a href="#experience">Experience</a>
             </li>
             <li className="nav-list-item">
               <a href="#skills">Skills</a>
@@ -25,11 +25,14 @@ const Header = () => {
               <a href="#projects">Projects</a>
             </li>
             <li className="nav-list-item">
+              <a href="#about">About</a>
+            </li>
+            <li className="nav-list-item">
               <a href="#contact">Contact</a>
             </li>
           </ul>
         </div>
-        
+
         <div className="nav-buttons">
           <SwitchTheme></SwitchTheme>
         </div>

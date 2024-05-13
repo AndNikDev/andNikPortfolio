@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import "./SwitchTheme.css";
+import "../assets/css/SwitchTheme.css";
 
 const SwitchTheme = () => {
   const [theme, setTheme] = useState(
